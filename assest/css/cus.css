@@ -1,0 +1,38 @@
+* {
+    font-family: "Quicksand", sans-serif;
+  }
+  .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.languageIconActive {
+  border-bottom:2px solid #eab308;
+}
+
+.activeCode {
+  display: block;
+}
+
+.active-link {
+  border-bottom: 3px solid;
+  transition: 0.2s linear;
+}
+
+@media screen and (max-width: 460px) {
+   .swiper-slide{
+    width: 300px;
+   }
+}

@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wai Yan Latt</title>
+    <link rel="icon" href="/assest/img/me/me (2).jpg" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assest/css/animate.min.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="/assest/css/cus.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav
+      id="fixedNav"
+      class="bg-white shadow-xl border-b border-b-yellow-500 dark:border-b-red-500 dark:bg-slate-900 animate__animated w-full"
+    >
+      <div class="container mx-auto py-1 lg:px-28">
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex space-x-4 lg:space-x-5 items-center">
+            <img
+              src="/assest/img/me/me (2).jpg"
+              alt=""
+              class="w-10 lg:w-16 rounded-full ml-8 lg:ml-0"
+            />
+            <p
+              class="font-bold text-black dark:text-red-500 text-md lg:min-w-full lg:text-lg lg:z-20"
+            >
+              Wai Yan Latt
+            </p>
+          </div>
+          <!-- menu -->
+          <div
+            id="mobile"
+            class="lg:flex fixed lg:static top-0 h-screen lg:h-auto bg-white dark:bg-slate-900 lg:bg-transparent -left-full w-full z-10 lg:z-0 flex justify-center items-center duration-500"
+          >
+            <div
+              id="menu-close"
+              class="lg:hidden top-0 absolute flex items-center justify-center right-0 border dark:border-red-500 border-black w-10 h-10 rounded-full mr-4 mt-3"
+            >
+              <i class="fa-solid fa-xmark text-2xl dark:text-red-500"></i>
+            </div>
+            <ul
+              class="flex lg:space-x-4 lg:flex-row flex-col space-y-10 lg:space-y-0 items-center lg:text-base text-xl font-bold text-black dark:text-red-500"
+            >
+              <a
+                href="#home"
+                class="hover:text-slate-500 duration-500 cursor-pointer active-link"
+              >
+                Home
+              </a>
+              <a
+                href="#about"
+                class="hover:text-slate-500 duration-500 cursor-pointer"
+              >
+                About
+              </a>
+              <a
+                href="#skill"
+                class="hover:text-slate-500 duration-500 cursor-pointer"
+              >
+                Skill
+              </a>
+              <a
+                href="#pro"
+                class="hover:text-slate-500 duration-500 cursor-pointer"
+              >
+                My Project
+              </a>
+              <a
+                href="#con"
+                class="hover:text-slate-500 duration-500 cursor-pointer"
+              >
+                Contact
+              </a>
+            </ul>
+          </div>
+
+          <!-- dark-mode -->
+          <div class="flex items-center justify-center scale-50 md:scale-100">
+            <button
+              id="dark-switch"
+              onclick="toggleTheme()"
+              class="bg-black w-[85px] flex items-center transition duration-200 rounded-full m-2 dark:bg-slate-800 p-1"
+            >
+              <div
+                id="dark-switch-icon"
+                class="bg-slate-50 w-8 h-8 rounded-full transform transition duration-200 flex justify-center items-center"
+              >
+                <i class="fa-regular fa-sun"></i>
+              </div>
+              <h6 id="dark-text" class="text-white translate-x-1 font-bold">
+                OFF
+              </h6>
+            </button>
+            <div class="lg:hidden mobile-menu">
+              <i
+                class="fa-solid fa-bars text-black dark:text-red-500 ml-9 text-3xl"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- first section -->
+    <section class="py-10 lg:py-20 bg-slate-50 dark:bg-slate-800" id="home">
+      <div class="px-5 lg:px-28 container mx-auto">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-center space-x-0 lg:space-x-40"
+        >
+          <div class="">
+            <h1 class="text-2xl lg:text-4xl font-bold dark:text-white">
+              Hello EveryOne,<br />
+              My Name Is Wai Yan Latt.
+            </h1>
+            <h1 class="mt-5 text-xl lg:text-3xl font-bold dark:text-white">
+              I'm
+              <span class="auto-type text-yellow-500 dark:text-red-500"></span>
+            </h1>
+            <button
+              class="w-full lg:w-auto font-bold text-yellow-500 bg-black dark:bg-red-500 dark:text-white dark:hover:bg-red-400 mt-10 px-5 py-2 rounded-full hover:bg-slate-800 duration-500 hover:text-yellow-500"
+            >
+              Hire Me
+            </button>
+            <a href="../assest/waiyanlattCV.pdf"  download>
+              <button
+              class="w-full lg:w-auto font-bold text-yellow-500 bg-black dark:bg-red-500 dark:text-white dark:hover:bg-red-400 mt-5 lg:mt-10 px-5 py-2 rounded-full hover:bg-slate-800 duration-500 hover:text-yellow-500"         
+              >
+              Download CV
+            </button>
+            </a>
+          </div>
+          <div class="px-5 lg:px-0 headline">
+            <img
+              src="/assest/img/me/me.10.jpg"
+              alt=""
+              class="w-full lg:w-80 lg:h-80 object-cover hover:rounded-full rounded-3xl mt-10 lg:mt-0 shadow-lg hover:scale-110 cursor-pointer duration-500 hover:shadow-yellow-500 hover:dark:shadow-red-500"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second section -->
+    <section class="py-10 lg:py-20 bg-white dark:bg-slate-900" id="about">
+      <div class="container px-5 lg:px-28 mx-auto">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-center space-x-0 lg:space-x-28"
+        >
+          <div class="px-5 lg:px-0 headline">
+            <img
+              src="/assest/img/me/me (2).jpg"
+              alt=""
+              class="w-full lg:w-80 hover:rounded-full rounded-3xl mt-10 lg:mt-0 shadow-lg hover:scale-110 cursor-pointer duration-500 hover:shadow-yellow-500 hover:dark:shadow-red-500"
+            />
+          </div>
+          <div class="mt-16 lg:mt-0">
+            <h1 class="text-2xl lg:text-4xl font-bold dark:text-red-500">
+              About My Self
+            </h1>
+            <p class="mt-5 text-lg font-bold text-slate-500 dark:text-white">
+              Hello Everyone, My name is Wai Yan Latt.I was born 8th , Augest ,
+              2001 in Insein Township Yangon. I have 4 family members: my father
+              , my mother , my little sister and I.When I was young, I had a
+              goal , which is that I want to become a developer. That goal came
+              about when I was in the 7th grade watching hacker movies.In that
+              movies,I was excited to see the actors writing code and working
+              endlessly.That's why I became interested in that.
+              <span class="auto text-slate-500 dark:text-white"></span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-center space-x-0 lg:space-x-48 lg:mt-20"
+        >
+          <div class="mt-16 lg:mt-0">
+            <h1 class="text-2xl lg:text-4xl font-bold dark:text-red-500">
+              About My Self
+            </h1>
+            <p class="mt-5 text-lg font-bold text-slate-500 dark:text-white">
+              I also lost my goal. After that, we stayed as CDM students. Around
+              October 14th, I was using Facebook and saw a post. It was Page
+              Myanmar Web Course. We will teach people who want to become
+              developers. The course fee is 480,000. There is a promotion price.
+              It is only 280,000. That's why I joined.In the course, the teacher
+              only taught HTML, and CSS was just copy and paste. We didn't know
+              what flexbox used in css was. I only knew that javascript was
+              connected to a script. I didn't know what bootstrap was, and I
+              didn't know what framework was. Also, when I continued to learn
+              backend, I continued to learn copy and paste.
+              <span class="final text-slate-500 dark:text-white"></span>
+            </p>
+          </div>
+          <div class="px-5 lg:px-0 mt-10 lg:mt-0 headline">
+            <img
+              src="/assest/img/me/me (9).jpg"
+              alt=""
+              class="w-full lg:w-80 rounded-3xl mt-10 lg:mt-0 shadow-lg hover:scale-110 cursor-pointer duration-500 hover:shadow-yellow-500 hover:dark:shadow-red-500"
+            />
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-center space-x-0 lg:space-x-28 mt-20"
+        >
+          <div class="px-5 lg:px-0 headline">
+            <img
+              src="/assest/img/me/me (6).jpg"
+              alt=""
+              class="w-full lg:w-80 rounded-3xl mt-10 lg:mt-0 shadow-lg hover:scale-110 cursor-pointer duration-500 hover:shadow-yellow-500 hover:dark:shadow-red-500"
+            />
+          </div>
+          <div class="mt-16 lg:mt-0">
+            <h1 class="text-2xl lg:text-4xl font-bold dark:text-red-500">
+              About My Self
+            </h1>
+            <p class="mt-5 text-lg font-bold text-slate-500 dark:text-white">
+              I've lost my goal and I don't have a single penny. My girlfriend
+              used her money for the first course fee and lent it to me. Now
+              she's gone and I've been scammed. My goals are gone, but everyone
+              gets lucky 3 times in life. The first time I got the girl who put
+              me on this path. The second time I met Digital Hunter.
+              <span class="last text-slate-500 dark:text-white"></span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-center space-x-0 lg:space-x-48 lg:mt-20"
+        >
+          <div class="mt-10 lg:mt-0">
+            <h1 class="text-xl lg:text-4xl font-bold dark:text-red-500">
+              About My Self
+            </h1>
+            <p class="mt-5 text-lg font-bold text-slate-500 dark:text-white">
+              I also tried my best. There is a word that the teacher used to
+              tell me. It doesn't matter if I get my money or not. It's
+              important that you guys really go up. Now I can write the frontend
+              part.
+              <span class="good text-slate-500 dark:text-white"></span>
+            </p>
+          </div>
+          <div class="px-5 lg:px-0 mt-10 lg:mt-0 headline">
+            <img
+              src="/assest/img/me/me11.jpg	"
+              alt=""
+              class="w-full lg:w-80 rounded-3xl mt-10 lg:mt-0 shadow-lg hover:scale-110 cursor-pointer duration-500 hover:shadow-yellow-500 hover:dark:shadow-red-500"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- third section -->
+    <section class="py-10 lg:py-20 bg-slate-50 dark:bg-slate-800" id="skill">
+      <div class="container mx-auto px-5 lg:px-28">
+        <div class="">
+          <h1
+            class="text-center font-bold text-2xl lg:text-4xl dark:text-red-500"
+          >
+            My learned skills
+          </h1>
+        </div>
+        <div
+          class="grid grid-cols-2 lg:grid-cols-10 mt-10 items-center gap-10 lg:gap-0 space-x-0 lg:space-x-5"
+        >
+          <div
+            class="headline text-red-500 p-5 border border-red-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-red-500 hover:bg-red-500 hover:text-white"
+          >
+            <i class="fa-brands fa-html5 text-5xl"></i>
+            <p class="mt-3 font-bold">HTML 5</p>
+          </div>
+          <div
+            class="headline text-blue-500 p-5 border border-blue-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-blue-500 hover:bg-blue-500 hover:text-white"
+          >
+            <i class="fa-brands fa-css3 text-5xl"></i>
+            <p class="mt-3 font-bold">CSS 3</p>
+          </div>
+          <div
+            class="headline text-yellow-500 py-5 px-1 border border-yellow-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-black hover:bg-black"
+          >
+            <i class="fa-brands fa-js text-5xl"></i>
+            <p class="mt-3 font-bold">javascript</p>
+          </div>
+          <div
+            class="headline text-cyan-500 p-5 border border-cyan-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-cyan-500 hover:bg-cyan-500 hover:text-white"
+          >
+            <img
+              src="/assest/img/me/Adobe_Photoshop_CC_icon.svg.png"
+              alt=""
+              class="lg:w-28 w-12 mx-auto lg:mx-0"
+            />
+            <p class="mt-3 font-bold">PS5</p>
+          </div>
+          <div
+            class="headline text-orange-500 p-5 border border-orange-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-orange-500 hover:bg-orange-500 hover:text-white"
+          >
+            <img
+              src="/assest/img/me/Adobe_Illustrator_CC_icon.svg.png"
+              alt=""
+              class="lg:w-28 w-12 mx-auto lg:mx-08"
+            />
+            <p class="mt-3 font-bold">AI</p>
+          </div>
+          <div
+            class="headline text-fuchsia-500 p-5 border border-fuchsia-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-fuchsia-500 hover:bg-fuchsia-500 hover:text-white"
+          >
+            <img
+              src="/assest/img/me/images.png"
+              alt=""
+              class="lg:w-28 w-12 mx-auto lg:mx-0"
+            />
+            <p class="mt-3 font-bold">XD</p>
+          </div>
+          <div
+            class="headline text-black p-5 border border-black rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-black hover:bg-black hover:text-white"
+          >
+            <i class="fa-brands fa-figma text-4xl"></i>
+            <p class="mt-3 font-bold">Figma</p>
+          </div>
+          <div
+            class="headline text-purple-500 py-5 lg:py-2 px-1 border border-purple-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-purple-500 hover:bg-purple-500 hover:text-white"
+          >
+            <i class="fa-brands fa-bootstrap text-4xl"></i>
+            <p class="mt-3 font-bold">Bootstrap 5.2/3</p>
+          </div>
+          <div
+            class="headline text-emerald-500 py-2 px-1 border border-emerald-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-emerald-500 hover:bg-slate-500 hover:text-white"
+          >
+            <img src="/assest/img/me/tailwind.png" alt="" class="w-28" />
+            <p class="mt-3 font-bold">Tailwind CSS</p>
+          </div>
+          <div
+            class="headline text-sky-500 p-5 border border-sky-500 rounded-xl text-center cursor-pointer duration-500 shadow-md hover:shadow-sky-500 hover:bg-sky-500 hover:text-white"
+          >
+            <i class="fa-brands fa-react text-3xl"></i>
+            <p class="mt-3 font-bold">React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pro -->
+    <section id="pro">
+      <!-- fouth section -->
+      <section class="py-10 lg:py-20 bg-white dark:bg-slate-900">
+        <h1
+          class="font-bold text-2xl lg:text-4xl dark:text-red-500 text-center"
+        >
+          My Recent Project
+        </h1>
+        <div class="lg:px-14 mx-auto container">
+          <div class="mt-10">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source src="/assest/img/my pj/lol.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source
+                      src="/assest/img/my pj/ionic.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source
+                      src="/assest/img/my pj/youtube.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source
+                      src="/assest/img/my pj/epic game.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source src="/assest/img/my pj/net.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source src="/assest/img/my pj/nike.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source
+                      src="/assest/img/my pj/ig clone.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source
+                      src="/assest/img/my pj/admin dashbord.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source
+                      src="/assest/img/my pj/messenger.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <div
+                  class="swiper-slide rounded-lg lg:rounded-3xl overflow-hidden"
+                >
+                  <video
+                    class="w-full rounded-lg lg:rounded-3xl"
+                    autoplay
+                    muted
+                    play-inline
+                    loop
+                  >
+                    <source src="/assest/img/my pj/net1.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </section>
+
+      <!-- fifth section -->
+      <section class="py-10 lg:py-28 bg-slate-50 dark:bg-slate-800">
+        <div class="container mx-auto px-5 lg:px-28">
+          <h1
+            class="text-2xl lg:text-4xl dark:text-red-500 font-bold text-center mb-28"
+          >
+            My Project
+          </h1>
+          <div
+            class="grid grid-cols-2 lg:grid-cols-4 justify-center items-center gap-5 lg:gap-0 lg:space-x-5"
+          >
+            <button
+              class="px-3 font-bold text-black dark:text-white dark:border-red-500 duration-500 cursor-pointer languageIcons languageIconActive"
+              onclick="languageIconActive() "
+            >
+              <i class="fa-brands fa-html5 text-md text-red-500"></i>
+              <span class="text-red-500">HTML</span>
+              <i class="fa-brands fa-css3-alt text-blue-500 text-md"></i>
+              <span class="text-blue-500">CSS</span>
+            </button>
+            <button
+              class="px-3 font-bold text-violet-500 dark:border-violet-500 duration-500 cursor-pointer languageIcons"
+              onclick="languageIconActive() "
+            >
+              <i class="fa-brands fa-bootstrap"></i>
+              BOOTSTRAP
+            </button>
+            <button
+              class="flex items-center justify-center px-3 font-bold text-green-500 dark:border-green-500 duration-500 cursor-pointer languageIcons"
+              onclick="languageIconActive() "
+            >
+              <img src="/assest/img/me/tailwind.png" alt="" class="w-10" />
+              TAILWIND
+            </button>
+            <button
+              class="px-3 font-bold text-blue-500 dark:border-blue-500 duration-500 cursor-pointer languageIcons"
+              onclick="languageIconActive() "
+            >
+              <i class="fa-solid fa-gamepad"></i>
+              WEBGAME
+            </button>
+          </div>
+          <div class="mt-10 languageContent hidden activeCode" id="html">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 items-center">
+              <!-- card one -->
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/ig.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Instagram Project
+                </h1>
+                <a href="https://instagran-u421.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/netflix.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Netflix Project
+                </h1>
+                <a href="https://netflix-hl5r.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/facebook.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Facebook Project
+                </h1>
+                <a href="https://facebook-czao.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/messenger.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Messenger Project
+                </h1>
+                <a href="https://messenger-mttd.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10 languageContent hidden activeCode" id="bootstrap">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 items-center">
+              <!-- card one -->
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/youtube.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Youtube Project
+                </h1>
+                <a href="https://you-tube-p96n.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/epicgame.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Epic Games Project
+                </h1>
+                <a href="https://epic-games-ecru.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/champion.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Lol Project
+                </h1>
+                <a href="https://league-of-legend-3vi3.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/food.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  True Life Project
+                </h1>
+                <a href="https://trulife-food-delivery.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/admin dashbord.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Admin-dashboard
+                </h1>
+                <a href="https://admin-dashboard-kgwk.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/netflix1.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Movie Project
+                </h1>
+                <a href="https://netflix-movie.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/berryleaf.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Berryleaf Project
+                </h1>
+                <a href="https://berryleaf.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/pyoneplay.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Pyoneplay Project
+                </h1>
+                <a href="https://pyoneplay.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/company.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Company-perfolio
+                </h1>
+                <a href="https://waiyanlatt.github.io/Company-perfolio/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/viber.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Viber Project
+                </h1>
+                <a href="https://viber-e141.vercel.app/#">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/nike.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  NIKE Project
+                </h1>
+                <a href="https://berryleaf.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10 languageContent hidden activeCode" id="tailwind">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 items-center">
+              <!-- card one -->
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/ionic.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Ionic Project
+                </h1>
+                <a href="https://ionic-sigma.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/taxpal.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Tax-pal Project
+                </h1>
+                <a href="https://tax-pal-iota.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/blog.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Blog-page Project
+                </h1>
+                <a href="https://blog-page-nine.vercel.app//">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/landing page.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Landing Page
+                </h1>
+                <a href="https://landing-page-virid-kappa.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/vellina.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Vanila Project
+                </h1>
+                <a href="https://vanilla-rouge-nine.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10 languageContent hidden activeCode" id="webgame">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 items-center">
+              <!-- card one -->
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/chess.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Chess Game(pls play your laptop)
+                </h1>
+                <a href="https://chess-game-one.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/naruto.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Slide Puzzel(pls play your laptop)
+                </h1>
+                <a href="https://slider-puzzel.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/flappy.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Flappy Bird Game(pls play your laptop)
+                </h1>
+                <a href="https://flappybird-alpha.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/slider.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Slider Fall Game(pls play your laptop
+                </h1>
+                <a href="https://slider-game.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+              <div
+                class="bg-white dark:bg-slate-900 cursor-pointer p-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-yellow-500 duration-500 dark:hover:shadow-red-500"
+              >
+                <img
+                  src="/assest/img/my pj/fallgame.jpg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+                <h1 class="mt-5 font-bold text-lg dark:text-red-500">
+                  Fall Game(pls play your laptop)
+                </h1>
+                <a href="https://fall-game-ruddy.vercel.app/">
+                  <button
+                    class="w-full mt-5 bg-black text-yellow-500 dark:text-white dark:bg-red-500 px-5 py-2 rounded-full font-bold"
+                  >
+                    Live Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- sixth section -->
+    <section class="py-10 lg:py-36 bg-white dark:bg-slate-900" id="con">
+      <div class="container mx-auto px-5 lg:px-28">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-center justify-between"
+        >
+          <div class="p-5 lg:p-0">
+            <img
+              src="/assest/img/me/me12.jpg"
+              alt=""
+              class="w-full lg:w-72 rounded-2xl hover:shadow-lg hover:shadow-yellow-500 cursor-pointer duration-500 hover:scale-110 dark:shadow-red-500"
+            />
+          </div>
+          <div class="mt-14 lg:mt-0">
+            <h1 class="text-4xl font-bold mb-5 dark:text-red-500">
+              Contact Me
+            </h1>
+            <h1 class="font-bold dark:text-white text-2xl">
+              My Address Is
+              <span class="awwa text-yellow-500 text-lg"></span>
+            </h1>
+            <h1 class="font-bold dark:text-white text-xl mt-5">
+              My Number Is
+              <span class="aww text-yellow-500"></span>
+            </h1>
+            <h1 class="font-bold dark:text-white text-xl mt-5">
+              My Email Is
+              <span class="awwaa text-yellow-500"></span>
+            </h1>
+            <div class="space-x-5">
+              <a href="https://www.facebook.com/profile.php?id=100011440302205">
+                <i
+                  class="fa-brands fa-facebook text-3xl mt-10 text-blue-500 dark:text-white"
+                ></i>
+              </a>
+              <a href="https://github.com/WaiYanLatt">
+                <i
+                  class="fa-brands fa-github text-3xl mt-10 text-black dark:text-white"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/assest/js/jquery-3.6.0.min.js"></script>
+    <script src="/assest/js/jquery.waypoints.min.js"></script>
+    <script src="/assest/js/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/assest/js/cus.js"></script>
+    <script>
+      // text type
+      var typed = new Typed(".auto-type", {
+        strings: ["Frontend Developer.", "UI & UX Designer."],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+
+      var typed = new Typed(".auto", {
+        strings: [
+          "I looked into the IT world, and there are many of them.I choose web developer. Then I passed the university entrence exam in 2019, and in 2020 , I majored in Geography at Dagon University through distance learning and worked as a maintenance engineer at CB bank.Around July 2022, due to the second wave of covid, we had to close all the schools in the whole country. That's what I heard in my first year.After the second wave of covid, when we were about to go back to school, our country suffered a coup d'état on February 1, 2021.",
+        ],
+        typeSpeed: 30,
+        loop: false,
+      });
+
+      var typed = new Typed(".final", {
+        strings: [
+          " So far, I am amazed at the people who are shouting that the course is good.There, a student said to the teacher that I want to be a frontend developer, and I heard that the teacher said that there are so many templates that I don't need, and the frontend is not encouraged.I heard that, but I tried my best, there I got grade A in web design and backend, and then I looked for a job. They called us for an interview, but I always failed. I'm not mad that they didn't hire me, because I learned Ui with Tamplate, and I didn't know anything. I have been cheated.I've fallen short of my goals again. I stand by everything I said about this course because I really suffered.",
+        ],
+        typeSpeed: 30,
+        loop: false,
+      });
+
+      var typed = new Typed(".last", {
+        strings: [
+          "Digital hunter is a course that teaches young people like us to be the best developers.is Sir San Linn Htike, one of students from MMSIT. When I first got to know the teacher, when I was completely crazy, the teacher posted an Instagram account written by his students in html css pure from his account.I also went to digital hunter. I told the teacher everything about me. The teacher added me to his class for free.",
+        ],
+        typeSpeed: 30,
+        loop: false,
+      });
+
+      var typed = new Typed(".good", {
+        strings: [
+          "I also got the certificate and I can touch React and I can write how the frontend of the website looks like. Thank you Digital Hunter for that. My English is a little weak, so please forgive me if there are any mistakes.",
+        ],
+        typeSpeed: 30,
+        loop: false,
+      });
+
+      var typed = new Typed(".aww", {
+        strings: ["09-740863737 , 09-965240659,"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+
+      var typed = new Typed(".awwa", {
+        strings: [
+          "NO.324 , KingTar Street , Royal-Rose Compound , South Dagon , Yangon.",
+        ],
+        typeSpeed: 50,
+      });
+
+      var typed = new Typed(".awwaa", {
+        strings: ["waiyanlattdev@gmail.com"],
+        typeSpeed: 50,
+      });
+
+      // swiper
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        spaceBetween: 20,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 50,
+          modifier: 2,
+          slideShadows: true,
+          autoplay: true,
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 1500,
+        },
+      });
+
+      //way point
+      const fixedNav = document.getElementById("fixedNav");
+      var waypoint = new Waypoint({
+        element: document.getElementById("about"),
+        handler: function (direction) {
+          if (direction === "down") {
+            fixedNav.classList.add(
+              "fixed",
+              "top-0",
+              "animate__fadeInDown",
+              "shadow-xl",
+              "z-10"
+            );
+          } else {
+            fixedNav.classList.remove(
+              "fixed",
+              "top-0",
+              "animate__fadeInDown",
+              "z-10"
+            );
+          }
+        },
+        offset: "10%",
+      });
+
+      const sections = document.querySelectorAll("section[id]");
+
+      function scrollActive() {
+        const scrollY = window.pageYOffset; // scroll height
+        sections.forEach((current) => {
+          const sectionHeight = current.offsetHeight, // get current height
+            sectionTop = current.offsetTop - 58, // get current section of height
+            sectionId = current.getAttribute("id"); // get current section id
+          if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            document
+              .querySelector("a[href*=" + sectionId + "]")
+              .classList.add("active-link");
+          } else {
+            document
+              .querySelector("a[href*=" + sectionId + "]")
+              .classList.remove("active-link");
+          }
+        });
+      }
+      window.addEventListener("scroll", scrollActive);
+
+      // scrollreval
+      ScrollReveal().reveal(".headline", {
+        origin: "bottom",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
+        interval: 200,
+        scale: 0.8,
+        viewFactor: 0.2,
+      });
+    </script>
+  </body>
+</html>
