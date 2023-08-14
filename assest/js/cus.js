@@ -13,7 +13,7 @@ const toggleTheme = () => {
 
 const toDark = () => {
   darkSwitchIcon.classList.add("translate-x-full", "rotate-[360deg]");
-  darkSwitchIcon.innerHTML = `<i class="fa-solid fa-moon text-slate-900"></i>`;
+  darkSwitchIcon.innerHTML = `<i class="fa-solid fa-moon text-red-500"></i>`;
   // darkChangeText.innerText = 'Dark'
   darkSwitch.classList.remove("bg-slate-900");
   darkSwitch.classList.add("bg-slate-900");

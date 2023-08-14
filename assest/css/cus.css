@@ -1,7 +1,7 @@
 * {
-    font-family: "Quicksand", sans-serif;
-  }
-  .swiper {
+  font-family: 'Quicksand', sans-serif;
+}
+.swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -19,7 +19,7 @@
 }
 
 .languageIconActive {
-  border-bottom:2px solid #eab308;
+  border-bottom: 2px solid #eab308;
 }
 
 .activeCode {
@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 460px) {
-   .swiper-slide{
+  .swiper-slide {
     width: 300px;
-   }
+  }
 }
